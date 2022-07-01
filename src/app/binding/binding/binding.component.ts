@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class BindingComponent implements OnInit {
   pageTitle:string="Data Binding In Angular";
   
-  imageUrl:any = "./app/images/SummerSeason.jpg";
+  imageUrl:any = "https://thumbs.dreamstime.com/b/pink-wedding-blossom-website-header-wide-soft-focus-background-delicate-apple-right-hand-side-plenty-copy-space-51691229.jpg";
   btnStatus:boolean= false;
   constructor() { }
 
