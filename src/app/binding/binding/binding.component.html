@@ -1,11 +1,18 @@
 <!-- Data Binding -->
 <h1>{{ pageTitle }} </h1>
 <img src={{imageUrl}} height=150px/>
-<br>
+Note :- String Expression use interpolation
+non string expression use property binding.
+We can see after changing button btnStatus:boolean= false in property binding button not disable.
+<br><br>
 <button disabled={{btnStatus}}>ClickMe</button>
 
 <!-- Property Binding -->
 <h1>Property Binding </h1>
 <img [src]="imageUrl" height=150px/>
-<br>
+<br><br>
 <button [disabled]="btnStatus">ClickMe</button>
+<!-- Event Binding -->
+<br><br>
+<button (click)="changeTitle()">ChangeTitle</button>
+<!-- Two Way Data Binding -->

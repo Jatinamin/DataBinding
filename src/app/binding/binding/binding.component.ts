@@ -14,5 +14,7 @@ export class BindingComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  changeTitle(){
+    this.pageTitle ="Data Binding";
+  }
 }
